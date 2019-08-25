@@ -1,5 +1,5 @@
 class Song
-  attr_accessor :title, :artist
+  attr_accessor :title
 
    def artist_name
     self.artist ? self.artist.name : nil
